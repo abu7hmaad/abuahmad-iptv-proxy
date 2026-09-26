@@ -1,10 +1,10 @@
-// abuahmad-iptv-proxy — بروكسي بث IPTV على Render (Node.js بدون مكتبات)
-// يصل لأي منفذ وأي IP (عكس Cloudflare) — الاستخدام: https://اسم-الخدمة.onrender.com/?url=<الرابط مُرمَّزاً>
+// abuahmad-iptv-proxy — بروكسي بث IPTV على Hugging Face (Node.js بدون مكتبات)
+// يصل لأي منفذ وأي IP (عكس Cloudflare) — الاستخدام: https://abu7hmaad-iptv-proxy.hf.space/?url=<الرابط مُرمَّزاً>
 
 const http = require('http');
 const https = require('https');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 7860;
 const LOCK = true; // false = يشتغل من أي موقع
 const ALLOWED = [
   'https://abu7hmmad.blogspot.com',
